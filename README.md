@@ -70,7 +70,7 @@ Here is an exploratory visualization of the data set sample.
 
 ![Dataset Overview](images/data_visualization.png)
 
-And tree bar chart diagrams show the distribution of the classes within the datasets.
+And three bar chart diagrams show the distribution of the classes within the datasets.
 
 ![Dataset Overview](images/data_bar_charts.png)
 
@@ -78,7 +78,7 @@ And tree bar chart diagrams show the distribution of the classes within the data
 
 #### Preprocessing 
 
-The training and validation data sets have been populated to have a similar number of images per class.
+The training and validation data sets had been populated to have a similar number of images per class.
 
 Here is the tree bar chart diagrams show the distribution of the classes within the datasets.
 
