@@ -147,7 +147,7 @@ The final model results are:
 
 The validation curve shows the accuracy of the validation in relation to the number of epochs:
 
-![PSolution Approach](imagens/validation_accuracy.png)
+![PSolution Approach](images/validation_accuracy.png)
 
 ### Test a Model on New Images
 
