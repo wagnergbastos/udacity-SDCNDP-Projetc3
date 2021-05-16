@@ -86,8 +86,6 @@ Here is the tree bar chart diagrams show the distribution of the classes within 
 
 Finally, the images were normalized using the mean and standard deviation of the images converted to gray scales.
 
-![Preprocessed image](doc/preprocessed_image.jpg)
-
 Amount of data after increase
 
 * Number of training examples = 69144
@@ -142,9 +140,10 @@ batch size = 100
 #### Solution Approach
 
 The final model results are:
-* Train Accuracy = #.###
-* Valid Accuracy = #.###
-* Test Accuracy  = #.###
+
+* Train Accuracy = 0.999
+* Valid Accuracy = 0.996
+* Test Accuracy = 0.918
 
 The validation curve shows the accuracy of the validation in relation to the number of epochs:
 
@@ -160,6 +159,6 @@ Were used 8 German traffic signs from web.
 
 #### Performance on New Images
 
-The accuracy of the classification of the test images was #.###. 
+The accuracy of the classification of the test images was 0.750. 
 
 #### Model Certainty - Softmax Probabilities
