@@ -78,7 +78,7 @@ And three bar chart diagrams show the distribution of the classes within the dat
 
 #### Preprocessing 
 
-The training and validation data sets had been populated to have a similar number of images per class.
+The training and validation datasets have been populated to have a similar number of images per class.
 
 Here is the tree bar chart diagrams show the distribution of the classes within the datasets.
 
@@ -98,39 +98,35 @@ Amount of data after increase
 
 This model was composed of the following layers:
 
-Input: 32x32x1 grayscale image
+Layer 1: Convolutional. Input = 32x32x1. Output = 28x28x6.
 
-Convolution1 5x5: 1x1 pass, VALID filling, outputs 28X28X6
-
-RELU
+Activation: RELU
 
 Dropout: Keep the probability = 0.7
 
-Maximum pooling: 2x2 passes, requires 14x14x6
+Pooling: Input = 28x28x6. Output = 14x14x6.
 
-Convolution2 5x5: 1x1 passage, VALID filling, 10x10x16 outputs
+Layer 2: Convolutional. Output = 10x10x16.
 
-RELU
+Activation: RELU
 
-Maximum pooling: 2x2 passes, requires 5x5x16
+Pooling: Input = 10x10x16. Output = 5x5x16.
 
-Dropout : Keep the probability = 0.7
-
-Fully connected0 : Output = 400
+Flatten: Input = 5x5x16. Output = 400.
 
 Dropout : Keep the probability = 0.6
 
-Fully connected1: Outbound = 120
+Layer 3: Fully Connected. Input = 400. Output = 120.
 
-RELU
+Activation: RELU
 
-Fully connected2: Outbound = 84
+Layer 4: Fully Connected. Input = 120. Output = 84.
 
-RELU
+Activation: RELU
 
 Dropout : Keep the probability = 0.6
 
-Fully connected3 : Output = 43
+Layer 5: Fully Connected. Input = 84. Output = 43.
 
 
 #### Model Training
