@@ -162,3 +162,10 @@ Were used 8 German traffic signs from web.
 The accuracy of the classification of the test images was 0.750. 
 
 #### Model Certainty - Softmax Probabilities
+
+The five main softmax probabilities of the predictions in the captured images are
+
+
+
+
+
