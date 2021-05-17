@@ -142,8 +142,8 @@ batch size = 100
 The final model results are:
 
 * Train Accuracy = 0.999
-* Valid Accuracy = 0.996
-* Test Accuracy = 0.918
+* Valid Accuracy = 0.995
+* Test Accuracy = 0.923
 
 The validation curve shows the accuracy of the validation in relation to the number of epochs:
 
@@ -159,7 +159,7 @@ Were used 8 German traffic signs from web.
 
 #### Performance on New Images
 
-The accuracy of the classification of the test images was 0.750. 
+The accuracy of the classification of the test images was 0.875. 
 
 #### Model Certainty - Softmax Probabilities
 
