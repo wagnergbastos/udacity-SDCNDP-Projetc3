@@ -80,7 +80,7 @@ And three bar chart diagrams show the distribution of the classes within the dat
 
 The training and validation datasets have been populated to have a similar number of images per class.
 
-Here is the tree bar chart diagrams show the distribution of the classes within the datasets.
+Here is the three bar chart diagrams show the distribution of the classes within the datasets.
 
 ![Raw input image](images/data_filled.png)
 
@@ -94,7 +94,7 @@ Amount of data after increase
 
 #### Model architecture
 
-This model was composed of the following layers:
+This model is composed of the following layers:
 
 Layer 1: Convolutional. Input = 32x32x1. Output = 28x28x6.
 
@@ -126,16 +126,15 @@ Dropout : Keep the probability = 0.6
 
 Layer 5: Fully Connected. Input = 84. Output = 43.
 
-
 #### Model Training
 
 The same Lenet model of the tutorial was used, but with the addition of dropout in the convolution1 layers and in the fully connected layer, in addition to adjustments in the probability value.
 
 The hiperparameters was updated to: 
 
-Epochs = 75
-Learning rate = 0.0009
-batch size = 100
+* Epochs = 75
+* Learning rate = 0.0009
+* batch size = 100
 
 #### Solution Approach
 
@@ -153,7 +152,7 @@ The validation curve shows the accuracy of the validation in relation to the num
 
 #### Acquiring New Images
 
-Were used 8 German traffic signs from web.
+Were used eight German traffic signs from web.
 
 ![test_images](images/data_test.png)
 
