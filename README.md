@@ -167,9 +167,9 @@ The accuracy of the classification of the test images was 0.875.
 
 #### Model Certainty - Softmax Probabilities
 
-The five main softmax probabilities of the predictions in the captured images are
+The eight softmax probabilities of the predictions in the captured images are
 
-
+![softmax](images/softmax.png)
 
 
 
