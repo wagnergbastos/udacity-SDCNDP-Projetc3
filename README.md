@@ -159,6 +159,10 @@ Were used 8 German traffic signs from web.
 
 #### Performance on New Images
 
+Prediction results (correct results are shown in red):
+
+![results](images/data_test_result.png)
+
 The accuracy of the classification of the test images was 0.875. 
 
 #### Model Certainty - Softmax Probabilities
